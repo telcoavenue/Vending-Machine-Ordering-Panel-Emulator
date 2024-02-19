@@ -1,1 +1,72 @@
 
+
+// latest update on the 19/02/2024
+
+// the code is incomplete .... 
+
+
+
+
+  import java.util.Scanner; 
+
+
+
+fun keyTurn() = 1;
+
+fun menu(key: Int,products: Int)
+{
+    
+     // Creates an instance which takes input from standard input (keyboard) 
+    val scannerOBJECT = Scanner(System.`in`);
+    //  
+    
+    var cocaCOLAzero = 0; 
+    
+    var chilledCACAO = 0; 
+    
+    var orangeJUICE = 0; 
+    
+    var water = 0; 
+    
+    println(" Please select the appropriate Product:\n "+
+            "[1] Coca Cola 0% \n "+
+            "[2] Orange Juice \n "+
+               "[3] Chilled Chocolate \n "+ 
+              "[4] Water \n"+
+               "Please enter your selection: ");
+    
+    
+        // nextInt() reads the next integer from the keyboard 
+        // same line reference for var selPRO  
+    var selPRO = 0;  selPRO = scannerOBJECT.nextInt(); 
+    
+    
+        
+}
+
+fun main(args: Array<String>) 
+{
+    
+     
+    
+    println("test 1. "+" main() online"); 
+    
+  var key = 0; /* the variable that controls the flow of the while loop 
+    if the key is equal to 0 , the while loop is active, else if the 
+    key is equal to 1, the while loop terminates it activity. 
+   */
+    
+    var products = 0; 
+    
+    while(key!=1)
+    {
+        menu(key,products);
+         key=keyTurn();
+    }
+    
+    println("test 2. "+" key value is: "+key); 
+    
+}
+
+
+
